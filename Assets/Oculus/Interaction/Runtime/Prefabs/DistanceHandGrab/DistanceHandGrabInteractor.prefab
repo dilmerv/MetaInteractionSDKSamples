@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 4
@@ -72,6 +73,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 7
@@ -133,6 +135,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 6
@@ -179,6 +182,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6081838917209157990}
   m_Father: {fileID: 7231495904339511549}
@@ -230,6 +234,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7590733697234238304}
   - {fileID: 5302393389305463673}
@@ -253,10 +258,12 @@ MonoBehaviour:
   _positionFilterProperties:
     _minCutoff: 2
     _beta: 3
+    _dCutoff: 1
   _filterRotation: 1
   _rotationFilterProperties:
     _minCutoff: 0.6
     _beta: 6
+    _dCutoff: 1
 --- !u!1 &1334825631191652156
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,6 +291,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8115444967441429050}
   m_RootOrder: 0
@@ -305,10 +313,12 @@ MonoBehaviour:
   _positionFilterProperties:
     _minCutoff: 2
     _beta: 3
+    _dCutoff: 1
   _filterRotation: 1
   _rotationFilterProperties:
     _minCutoff: 0.6
     _beta: 6
+    _dCutoff: 1
 --- !u!1 &2802382959889008156
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +347,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 2
@@ -399,6 +410,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 1
@@ -446,6 +458,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 0
@@ -493,6 +506,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1742254118}
   m_RootOrder: 0
@@ -538,6 +552,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8115444967441429050}
   m_RootOrder: 1
@@ -559,10 +574,12 @@ MonoBehaviour:
   _positionFilterProperties:
     _minCutoff: 2
     _beta: 3
+    _dCutoff: 1
   _filterRotation: 1
   _rotationFilterProperties:
     _minCutoff: 0.6
     _beta: 6
+    _dCutoff: 1
 --- !u!1 &6364031080953275930
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +607,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8115444967441429050}
   m_RootOrder: 2
@@ -611,10 +629,12 @@ MonoBehaviour:
   _positionFilterProperties:
     _minCutoff: 2
     _beta: 3
+    _dCutoff: 1
   _filterRotation: 1
   _rotationFilterProperties:
     _minCutoff: 0.6
     _beta: 6
+    _dCutoff: 1
 --- !u!1 &6503358876159784328
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +661,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7134606857323907258}
   - {fileID: 278801296609911309}
@@ -678,6 +699,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7346640803031557552}
   - {fileID: 1336642843264482604}
@@ -727,6 +749,7 @@ MonoBehaviour:
     _aidFrustum: {fileID: 7381632195567819182}
     _aidBlending: 0
   _supportedGrabTypes: 1
+  _hoverOnZeroStrength: 1
   _gripPoint: {fileID: 278801296609911309}
   _pinchPoint: {fileID: 4204883961928387025}
   _detectionDelay: 0.1
@@ -775,6 +798,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7745856762742451570}
   m_RootOrder: 1
@@ -822,6 +846,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7745856762742451570}
   m_RootOrder: 0
@@ -869,6 +894,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7231495904339511549}
   m_RootOrder: 5
