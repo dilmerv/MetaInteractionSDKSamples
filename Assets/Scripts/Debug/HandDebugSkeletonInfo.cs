@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HandDebugInfo : MonoBehaviour
+public class HandDebugSkeletonInfo : MonoBehaviour
 {
     [SerializeField]
     private OVRHand hand;

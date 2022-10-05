@@ -5,9 +5,6 @@ public class HandDebugInteraction : MonoBehaviour
     [SerializeField]
     private OVRHand hand;
 
-    [SerializeField]
-    private HandInfoFrequency handInfoFrequency = HandInfoFrequency.Once;
-
     private bool pauseDisplay = false;
 
     private void Awake()
