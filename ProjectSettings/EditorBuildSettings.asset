@@ -6,32 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/DistanceGrabExamples.unity
-    guid: e1c1f1d4144ac8849ac1833b99bdfd23
+    path: Assets/Scenes/HandTrackingPriorToISDK.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/GestureExamples.unity
-    guid: 4ee2a082a0e621b49ab01667c66f1599
+    path: Assets/Scenes/HandTrackingWithISDK.unity
+    guid: 85ad4d5c5979aa943b9d7a821087618b
   - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity
-    guid: 39ae0e546b9edc0408d3b11c6a7c2814
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
-    guid: 509f8fa80c708b343a603a4771d35c85
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PokeExamples.unity
-    guid: ada3086bde0ab18459589e22d8d9e182
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PoseExamples.unity
-    guid: 4fe358b21fe17764db89a9ab9f202327
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/RayExamples.unity
-    guid: 1b2d3f90c0f50b94cb910c66c773d00d
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TouchGrabExamples.unity
-    guid: ade7d3882b4495145a8fe79f5624beab
-  - enabled: 1
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/TransformerExamples.unity
-    guid: 7475942f60c376744ba1ec487d140105
+    path: Assets/Scenes/HandTrackingWithISDK_Grab_Throw.unity
+    guid: 2f164a8f89f9ec44c83e3944da096687
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f617db4c0da54743b31d52d85c9abe8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f7a397d10de92f44d8c9cbafe63703e7, type: 2}
