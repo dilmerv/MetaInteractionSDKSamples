@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HandGrabPoseToolPrep.unity
     guid: bbf98a5e69e8f16458e323d2d07d2078
+  - enabled: 1
+    path: Assets/Scenes/RaysDemos.unity
+    guid: ed7def1b6039e15459ed8753810ba785
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f617db4c0da54743b31d52d85c9abe8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f7a397d10de92f44d8c9cbafe63703e7, type: 2}
