@@ -1,3 +1,5 @@
+using Oculus.Interaction;
+using Oculus.Interaction.Surfaces;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -83,5 +85,10 @@ public class RaysDemosUIManager : MonoBehaviour
             newMaterial.SetColor("_Color", Random.ColorHSV());
             newGO.GetComponent<MeshRenderer>().material = newMaterial;
         }
+
+        var colliderSurface = newGO.AddComponent<ColliderSurface>();
+        colliderSurface.InjectCollider(newGO.GetComponent<Collider>());
+        var interactable = newGO.AddComponent<RayInteractable>();
+        interactable.InjectSurface(colliderSurface);
     }
 }
